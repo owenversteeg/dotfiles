@@ -55,6 +55,8 @@ function perm(){
 alias monhdmi="xrandr --output LVDS1 --off --output HDMI1 --mode 1920x1080"
 alias monhdmibig="xrandr --output LVDS1 --off --output HDMI1 --mode 2560x1440"
 alias monlaptop="xrandr --output HDMI1 --off --output LVDS1 --auto"
+alias projon="xrandr --output VGA1 --mode 1024x768 --output eDP1 --mode 1024x768"
+alias projoff="xrandr --output VGA1 --off --output eDP1 --mode 1600x900"
 
 #Youtube video downloading
 function mp3(){
